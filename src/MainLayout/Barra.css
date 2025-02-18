@@ -1,0 +1,8 @@
+.icon path {
+    transition: fill 0.3s, stroke 0.3s; 
+  }
+  
+  .icon:hover path {
+    fill: #1C70FF; 
+    stroke: #1C70FF; 
+  }

@@ -1,0 +1,14 @@
+.custom-input {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 15px;
+    border: 1.5px solid #333; /* Color del borde */
+    border-radius: 10px; /* Bordes redondeados */
+    outline: none;
+    transition: border-color 0.3s;
+    margin-top: 10px;
+  }
+  
+  .custom-input:focus {
+    border-color: #666; /* Cambio de color al hacer clic */
+  }

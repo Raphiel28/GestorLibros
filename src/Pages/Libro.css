@@ -1,0 +1,18 @@
+.icon-edit path {
+    transition: fill 0.3s, stroke 0.3s; 
+  }
+  
+  .icon-edit:hover path {
+    fill: #FFC107; 
+    stroke: #FFC107; 
+  }
+
+
+  .icon-trash path {
+    transition: fill 0.3s, stroke 0.3s; 
+  }
+  
+  .icon-trash:hover path {
+    fill: #DC3545; 
+    stroke: #DC3545; 
+  }
