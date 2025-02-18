@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# API Gestor de Tareas - Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este es el proyecto de **Frontend** para interactuar con la **API Gestor de Tareas**. Está desarrollado con **React** utilizando `npx create-react-app`.
 
-## Available Scripts
+## Requisitos
 
-In the project directory, you can run:
+Antes de comenzar, asegúrate de tener instalados los siguientes requisitos:
 
-### `npm start`
+- **Node.js** (versión recomendada: 16 o superior)
+- **npm** (se instala junto con Node.js)
+- **React** (este proyecto usa `create-react-app`)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Instalación
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Sigue estos pasos para configurar e instalar el proyecto en tu entorno local:
 
-### `npm test`
+### 1. Clonar el repositorio
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Primero, clona el repositorio en tu máquina:
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+git clone https://github.com/tu_usuario/nombre_del_repositorio_frontend.git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 2. Instalar dependencias
+Una vez que el repositorio esté clonado, navega a la carpeta del proyecto y ejecuta el siguiente comando para instalar las dependencias:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+cd nombre_del_repositorio_frontend
+npm install
 
-### `npm run eject`
+### 3. Verificar configuración del puerto en APIcontext.js
+Es importante asegurarse de que el puerto configurado en el archivo APIcontext.js sea el correcto para que el frontend pueda comunicarse con el backend.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Abre el archivo src/APIcontext.js y verifica que la URL de la API esté configurada correctamente. Asegúrate de que el puerto en el que corre el backend coincida con el configurado en el frontend.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 4. Abrir el proyecto en Visual Studio Code
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Abre Visual Studio Code o el editor de tu preferencia.
+Abre la carpeta donde clonaste el proyecto.
 
-## Learn More
+### 5. Ejecutar el Frontend
+En la terminal, dentro de la carpeta del proyecto, ejecuta el siguiente comando para iniciar la aplicación React:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm start
+Esto abrirá el proyecto en tu navegador, generalmente en la URL http://localhost:3000.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 6. Probar la conexión
+Asegúrate de que el frontend esté correctamente configurado para realizar peticiones al backend. Abre tu navegador y verifica que puedas interactuar con la API, como listar las tareas o hacer peticiones de prueba.
